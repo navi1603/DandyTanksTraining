@@ -11,6 +11,7 @@ public class Main extends JPanel
     int bulletX = 320;
     int bulletY = 320;
 
+
     //Coordinates
     int x = 256;
     int y = 256;
