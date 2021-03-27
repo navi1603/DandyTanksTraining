@@ -11,7 +11,6 @@ public class Main extends JPanel
     int bulletX = 320;
     int bulletY = 320;
 
-
     //Coordinates
     int x = 256;
     int y = 256;
@@ -44,7 +43,6 @@ public class Main extends JPanel
 
         }
     }
-/*
     void moveUp() throws Exception
     {
         while (y != 0){
@@ -83,7 +81,7 @@ public class Main extends JPanel
             Thread.sleep(33);
             repaint();
         }
-    }*/
+    }
 
     public static void main(String[] args) throws Exception
     {
