@@ -43,45 +43,6 @@ public class Main extends JPanel
 
         }
     }
-    void moveUp() throws Exception
-    {
-        while (y != 0){
-            direction = 1;
-            y--;
-            Thread.sleep(33);
-            repaint();
-        }
-    }
-
-    void moveDown() throws Exception
-    {
-        while (y != BF_HEIGHT - 64){
-            direction = 2;
-            y++;
-            Thread.sleep(33);
-            repaint();
-        }
-    }
-
-    void moveLeft() throws Exception
-    {
-        while (x != 0){
-            direction = 3;
-            x--;
-            Thread.sleep(33);
-            repaint();
-        }
-    }
-
-    void moveRight() throws Exception
-    {
-        while (x != BF_WIDTH - 64) {
-            direction = 4;
-            x++;
-            Thread.sleep(33);
-            repaint();
-        }
-    }
 
     public static void main(String[] args) throws Exception
     {
