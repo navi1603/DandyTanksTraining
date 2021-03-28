@@ -12,6 +12,7 @@ public class Bullet extends AbstractMovableObject {
 
     @Override
     public void draw(Graphics g) {
-
+        g.setColor(Color.YELLOW);
+        g.fillRect(bulletX, bulletY, 14, 14);
     }
 }

@@ -12,6 +12,6 @@ public class Water extends AbstractBFObject {
 
     @Override
     public void draw(Graphics g) {
-
+        g.setColor(new Color(28, 78, 123));
     }
 }

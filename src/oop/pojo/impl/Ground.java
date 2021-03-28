@@ -12,6 +12,6 @@ public class Ground extends AbstractBFObject {
 
     @Override
     public void draw(Graphics g) {
-
+        g.setColor(new Color(0x6C4E31));
     }
 }
